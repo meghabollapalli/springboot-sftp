@@ -1,0 +1,11 @@
+1. the job needs to be triggred at 10pm everyday for the file that arrived on the sftp server which as the date same as processing day
+2. if we find the file, download the file. read only 2 top two lines from the file and send the file as an attachment to the email (just code for this, I will
+do testing on email server)
+3. if failure, we trigger retry mechanism 10.15, 10.30 -> if success we do step 2, if failure, we send the the ile is not available
+4. i will trigger with controller based on date
+
+
+
+Hi,
+
+this is the report generated for the day
